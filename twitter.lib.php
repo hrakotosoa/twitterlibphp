@@ -68,6 +68,9 @@ abstract class TwitterBase {
 		return $this->apiCall('statuses/public_timeline', 'get', $format, array(), false);
 	}
 
+	function getPublicTimelineByMatoa($format = 'xml') {
+		return $this->apiCall('statuses/public_timeline', 'get', $format, array(), false);
+	}
 	/**
 	 * Returns the 20 most recent statuses posted by the authenticating user and that user's friends.
 	 * @param array $options Options to pass to the method
