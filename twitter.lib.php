@@ -468,6 +468,10 @@ abstract class TwitterBase {
 	function lastApiCall() {
 		return $this->last_api_call;
 	}
+	
+	function lastApiCallTiana() {
+		return $this->last_api_call;
+	}
 }
 
 /**
